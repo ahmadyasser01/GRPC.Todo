@@ -15,7 +15,7 @@ namespace GRPC.Todo.Services
         {
             return Task.FromResult(new HelloReply
             {
-                Message = "Hello " + request.Name
+                Message = "Hello  " + request.Name
             });
         }
     }
